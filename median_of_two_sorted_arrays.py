@@ -14,7 +14,7 @@ class Solution:
             return med_a
     
     
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+    def findMedianSortedArrays(self, nums1, nums2):
         if (len(nums1) >0) and (len(nums2)>0):
             nums1.extend(nums2)
             nums1.sort()

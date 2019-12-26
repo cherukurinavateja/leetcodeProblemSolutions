@@ -1,7 +1,7 @@
 #Runtime: 52 ms, faster than 92.76% of Python3 online submissions for ZigZag Conversion.
 
 class Solution:
-    def convert(self, s: str, numRows: int) -> str:
+    def convert(self, s, numRows):
         if numRows == 1:
             return s
         else:

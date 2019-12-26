@@ -1,5 +1,5 @@
 class Solution:
-    def longestPalindrome(self, s: str) -> str:
+    def longestPalindrome(self, s):
         if (len(s) == 1) or (s == s[::-1]):
             return s
     
